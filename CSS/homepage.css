@@ -1,0 +1,53 @@
+.center {
+  text-align: center;
+color: white;
+}
+.jumbotron{
+margin-top: 0px;
+background-color: black;
+}
+  body {
+    background-color: #141d26;
+  }
+.butn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: modern1;
+  color: #141d26;
+  font-size: 25px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #c9c9c9;
+  text-decoration: none;
+}
+div.note {
+  text-align: center;
+  padding: 80px;
+  width: 800px;
+}
+.container {
+  padding: 30px;
+}
+@font-face {
+    font-family: 'modern2';
+    src: url('../Fonts/aspergit_light-webfont.woff2') format('woff2');
+  }
+
+
+  @font-face {
+      font-family: 'modern1';
+      src: url('../Fonts/aspergit-webfont.woff2') format('woff2'),
+           url('../Fonts/aspergit-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+
+  p.a {
+    font-size: 50px;
+  }
